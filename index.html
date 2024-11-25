@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="https://images.indianexpress.com/2023/05/youtube-logo-featured.jpg" alt="YouTube Logo" class="youtube-logo">
+            <h1>YouTube Clone</h1>
+        </div>
+        <div class="theme-toggle">
+            <button id="themeButton">Dark Mode</button>
+        </div>
+    </header>
+    <div class="container">
+        <div id="search-section">
+            <input type="text" id="searchQuery" placeholder="Search for videos or channels">
+            <button id="searchButton" onclick="searchVideos()">Search</button>
+        </div>
+        <div id="loading" class="hidden">Loading...</div>
+        <div id="error" class="hidden">Something went wrong. Please try again!</div>
+        <div id="results"></div>
+        <button id="returnButton" onclick="returnToSearch()" style="display: none;">Return to Search</button>
+        <button id="loadMoreButton" onclick="loadMoreVideos()" style="display: none;">Load More</button>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+
+            <p>&copy; 2024 Mohammad Oves & Company All Rights Reserved.</p>
+            
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+                <a href="#">FAQs</a>
+            </div>
+            <div class="footer-social">
+                <p>Connect with us on : </p>
+                
+                <a href="https://github.com/MohdOves" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" class="social-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/mohammad-oves-01b841306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="social-icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
