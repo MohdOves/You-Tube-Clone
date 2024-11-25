@@ -13,11 +13,17 @@ Features
 
 
 Search for videos using keywords.
+
 View video thumbnails with titles and channel names.
+
 Play videos in an embedded player.
+
 Load more results with the "Load More" button.
+
 Dark/Light mode toggle for personalized viewing.
+
 Responsive design for all devices.
+
 Footer with social media links.
 
 
