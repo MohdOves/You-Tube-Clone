@@ -1,4 +1,4 @@
-const apiKey = 'AIzaSyB8dnePT9-1cGsgZafJxJWRDsCg5o_wDyQ'; 
+const apiKey = ''; 
 const apiUrl = 'https://www.googleapis.com/youtube/v3/search';
 let nextPageToken = '';
 
@@ -81,3 +81,4 @@ document.getElementById('themeButton').addEventListener('click', () => {
     const isLightMode = document.body.classList.contains('light-mode');
     document.getElementById('themeButton').innerText = isLightMode ? 'Dark Mode' : 'Light Mode';
 });
+
